@@ -7,7 +7,7 @@ function man(id, name, age) {
 
     this.sayFun = function () {
 
-        console.log('subClassFunc: id:'+this.id + ' name:' + this.name + ' age:' + this.age);
+        console.log('子类方法: id:'+this.id + ' name:' + this.name + ' age:' + this.age+"\n");
     }
 }
 

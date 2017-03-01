@@ -7,7 +7,7 @@ function person(id,name,age){
 
     this.breath = function(){
 
-        console.log('baseClassFunc: person must breath');
+        console.log('父类方法: person must breath'+"\n");
     }
 }
  
